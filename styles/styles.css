@@ -29,7 +29,7 @@ body p {
 .blog-card-container {
   background-color: var(--white);
   border-radius: 20px;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  box-shadow: 8px 8px 1px var(--gray-950);
   padding: 20px;
   margin: auto;
   width: 350px;
@@ -37,7 +37,6 @@ body p {
   flex-direction: column;
   gap: 16px;
   color: var(--gray-950);
-  box-shadow: 8px 8px 1px var(--gray-950);
 }
 
 @media (max-width: 375px) {
