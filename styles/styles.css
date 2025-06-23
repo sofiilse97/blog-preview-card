@@ -30,6 +30,7 @@ body p {
   background-color: var(--white);
   border-radius: 20px;
   box-shadow: 8px 8px 1px var(--gray-950);
+  border: 1px solid var(--gray-950);
   padding: 20px;
   margin: auto;
   width: 350px;
@@ -68,6 +69,11 @@ body p {
 
 .blog-card__content .blog-card__title {
   font-weight: 600;
+}
+
+.blog-card__content .blog-card__title:hover {
+  color: var(--primary);
+  cursor: pointer;
 }
 
 .blog-card__content .blog-card__description {
